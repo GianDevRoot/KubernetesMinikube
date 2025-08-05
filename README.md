@@ -72,5 +72,11 @@ spec:
 | Pod        | Un contenedor Nginx “hello”       |
 | Service    | Expone el deployment vía NodePort |
 
+## ¿Quieres borrar todo (deployment + service) y dejar limpio el clúster?
+````
+kubectl delete deployment hello-deployment
+kubectl delete service hello-deployment
+````
+
 ## ✍️ Autor
 Giancarlos Mamani Benitez
